@@ -396,9 +396,34 @@
             </button>
             <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
             <form action="#">
-            <input type="text" class="form-input">
-            <input type="text" class="form-input">
-            <input type="text" class="form-input">
+            <div class="form-field">
+                <label class="input-text" for="user-name">Имя</label>
+            <input 
+            type="text" 
+            class="form-input" 
+            name="user-name"
+            placeholder=""
+            minlength="3"
+            id="user-name">
+            </div>
+            <div class="form-field">
+                <label class="input-text" for="user-tel">Телефон</label>
+            <input 
+            type="text" 
+            class="form-input" 
+            name="user-tel"
+            placeholder=""
+            id="user-tel">
+            </div>
+            <div class="form-field">
+                <label class="input-text" for="user-mail">Почта</label>
+            <input 
+            type="email" 
+            class="form-input" 
+            name="user-mail"
+            placeholder=""
+            id="user-mail">
+            </div>
             </form>
 
         </div>
